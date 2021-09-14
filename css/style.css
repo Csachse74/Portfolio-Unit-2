@@ -56,7 +56,7 @@ main {
     width: 100%;
 }
 
-main section {
+main section.heading {
     height: 350px;
     width: 100%;
     background-image: url(../images/iStock-1265005920.jpg);
@@ -114,7 +114,7 @@ article.work h1 {
     top: 100px;
     left: 500px;
     border-right: 3px solid var(--h1);
-    height: 1800px;
+    height: 1300px;
     color: var(--h1);
     word-wrap: break-word;
     white-space: normal;
@@ -123,7 +123,46 @@ article.work h1 {
     padding-right: 25px;
 }
 
-img {
+article.contact-me h1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: -400px;
+    left: 460px;
+    border-right: 3px solid var(--h1);
+    height: 180px;
+    color: var(--h1);
+    word-wrap: break-word;
+    white-space: normal;
+    width: 200px;
+    text-align: right;
+    padding-right: 25px;
+}
+
+/* article ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+} */
+
+article.contact-me ul {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1500px;
+    top: -330px;
+    left: 700px;
+    font-size: 25px;
+    color: var(--h1);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+/* img {
     opacity: 0.5;
 }
 
@@ -157,9 +196,142 @@ img.flex-box2 {
     width: 750px;
     left: 1450px;
     top: -800px;
+} */
+
+.products {
+    flex: 1;
+    position: relative;
+    background-color: var(--light);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    left: 700px;
+    top: 100px;
+    opacity: .5;
+    width: 1400px;
+    height: 600px;
+    /* justify-content: center; */
 }
 
+.other {
+    flex: 1;
+    position: relative;
+    background-color: var(--light);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    left: 700px;
+    top: 100px;
+    opacity: .5;
+    width: 650px;
+    height: 300px;
+    /* justify-content: center; */
+}
 
+.other2 {
+    flex: 1;
+    position: relative;
+    background-color: var(--light);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    left: 1400px;
+    top: -550px;
+    opacity: .5;
+    width: 700px;
+    height: 300px;
+    /* justify-content: center; */
+}
+
+.card {
+    /* border-style: solid; */
+    border: 5px solid var(--light-blue);
+    /* border-width: 1px; */
+    border-radius: 50px;
+    padding: 10px;
+    flex: 0 0 400px;
+    /* background-image: url(../images/iStock-1224500457.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    margin: 25px;
+}
+  
+.products.card header {
+    position: absolute;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 20px 20px 20px 30px;
+    background-color: var(--light-blue);
+    color: black;
+    top: 450px;
+    left: -5px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+ 
+.other.card header
+,.other2.card header {
+    position: absolute;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 20px 20px 20px 30px;
+    background-color: var(--light-blue);
+    color: black;
+    top: 180px;
+    left: -5px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.card p {
+    text-align: center;
+}
+  
+.card img {
+    width: 100%;
+}
+
+section.card:hover {
+    opacity: 1;
+}
+
+.contact-me a:link {
+    color: var(--h1);
+}
+
+.contact-me a:visited {
+    color: var(--dark);
+}
+
+#img1 {
+    background-image: url(../images/iStock-1224500457.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img2 {
+    background-image: url(../images/iStock-1277731016.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img3 {
+    background-image: url(../images/iStock-1224500457.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img4 {
+    background-image: url(../images/iStock-1286943532.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img5 {
+    background-image: url(../images/iStock-1224500457.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /* footer {
     margin: 1.5rem;
