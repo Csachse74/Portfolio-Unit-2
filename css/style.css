@@ -54,6 +54,8 @@ nav a {
 
 main {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 main section.heading {
@@ -71,6 +73,7 @@ section h2.subtitle {
     color: var(--dark);
     background-color: var(--light-blue);
     padding: 5px 10px;
+
     /* flex-direction: row; */
     /* justify-content: center; */
     /* align-items: center; */
@@ -250,6 +253,8 @@ img.flex-box2 {
     border-radius: 50px;
     padding: 10px;
     flex: 0 0 400px;
+    display: flex;
+    flex-wrap: wrap;
     /* background-image: url(../images/iStock-1224500457.jpg);
     background-repeat: no-repeat;
     background-size: cover; */
@@ -303,6 +308,11 @@ section.card:hover {
     color: var(--dark);
 }
 
+section.card {
+    cursor: pointer;
+    content: "url(https://csachse74.github.io/Code-Refactor-Unit-1/)";
+}
+
 #img1 {
     background-image: url(../images/iStock-1224500457.jpg);
     background-repeat: no-repeat;
@@ -316,7 +326,7 @@ section.card:hover {
 }
 
 #img3 {
-    background-image: url(../images/iStock-1224500457.jpg);
+    background-image: url(../images/iStock-828766970.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -328,7 +338,7 @@ section.card:hover {
 }
 
 #img5 {
-    background-image: url(../images/iStock-1224500457.jpg);
+    background-image: url(../images/iStock-1226864145.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -339,3 +349,10 @@ section.card:hover {
     background-color: var(--dark);
     display: block;
 } */
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+}
