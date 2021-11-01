@@ -90,7 +90,7 @@ article.about-me h1 {
     top: 35px;
     left: 500px;
     border-right: 3px solid var(--h1);
-    height: 180px;
+    height: 250px;
     color: var(--h1);
     word-wrap: break-word;
     white-space: normal;
@@ -314,19 +314,19 @@ section.card {
 }
 
 #img1 {
-    background-image: url(../images/iStock-1224500457.jpg);
+    background-image: url(../images/PasswordGenerator.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #img2 {
-    background-image: url(../images/iStock-1277731016.jpg);
+    background-image: url(../images/NoteTaker.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #img3 {
-    background-image: url(../images/iStock-828766970.jpg);
+    background-image: url(../images/EmployeeManagement.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -338,7 +338,7 @@ section.card {
 }
 
 #img5 {
-    background-image: url(../images/iStock-1226864145.jpg);
+    background-image: url(../images/ProjectOne.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
